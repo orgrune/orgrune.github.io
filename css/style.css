@@ -1,0 +1,3730 @@
+/* set font */
+@font-face {
+  font-family: AgencyFB;
+  src: url(../fonts/AGENCYR.TTF);
+}
+
+
+html, body {
+  font-size: 100%;
+  height: 100%;
+  font-family: 'AgencyFB', sans-serif;
+}
+
+ 
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+@media (min-width: 1500px) {
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 70pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    padding-left: 10;
+    height: 100%;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+  }
+
+
+  #my-name {
+    font-size: 80pt;
+    line-height: 1.2;
+    color: #3d806b;
+    margin-left: -10%;
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -20px;
+  }
+
+
+  #svg-container {
+    position: relative;
+    margin-top: -7%;
+    width: 1027px;
+    height: 574px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #back-no-arrows {
+    display:none;
+  }
+
+  
+
+  .text-a {
+    font-size: 20pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: 83%;
+    left: 18.5%;
+    position: absolute;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: 4%;
+    left: 30.5%;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: 0%;
+    left: 56%;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: 86%;
+    left: 43.5%;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: 67.5%;
+    left: 82%;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 50%;
+    background-position: 15% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+   #about-message {
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 25pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: -2% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+  .resume-head {
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 20pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 18pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 25pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 30;
+    padding-bottom: 30;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    height: 100%;
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 25pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 20pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 12%;
+    position: absolute;
+    width: 1100px;
+    z-index: 0;
+    overflow: hidden;
+    display: visible;
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    overflow: hidden;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 17%;margin-bottom: 17%;width: 150;overflow: hiddden;height: 150;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 30%;
+    min-height: 400px;
+    position: relative;
+  }
+
+  .portfolio-image-1{
+    margin-top: 2%;
+    margin-left: 5%;
+    position: absolute;
+  }
+  
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1500px; -----------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+  .components-title {
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 60pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+   #im-a{
+    width: 150;
+    height: 150;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px){
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1200px; -----------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 3%;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 50pt;
+    color: #FFF;
+    z-index: 20;
+    top: 20%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1200px; -----------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    padding-left: 10;
+    height: 100%;
+    min-height: 700px;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+  }
+
+
+  #my-name {
+    font-size: 60pt;
+    line-height: 1.2;
+    color: #3d806b;
+    margin-left: -10%;
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -20px;
+  }
+
+
+  #svg-container {
+    position: relative;
+    margin-top: -8%;
+    width: 1000px;
+    height: 574px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #back-no-arrows {
+    display:none;
+  }
+
+  
+
+  .text-a {
+    font-size: 20pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: 81%;
+    left: 18.5%;
+    position: absolute;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: 1%;
+    left: 30.5%;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: -2%;
+    left: 56%;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: 82%;
+    left: 43.5%;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: 67.5%;
+    left: 78%;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width :1200px;  -----------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    min-height: 700px;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 50%;
+    background-position: 15% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+   #about-message {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 20pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1200px; -----------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    min-height: 700px;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: -2% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+  .resume-head {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 18pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 20pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin-top: -6%;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1200px; -----------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    min-height: 700px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 20pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 20pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    width: 700px;
+    z-index: 0;
+    display: visible;
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 5%;margin-bottom: 5%;width: 125;height: 125;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 120px; ------------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 40%;
+    min-height: 40%;
+    position: relative;    
+  }
+  
+    .portfolio-image-1{
+    margin-top: 2%;
+    margin-left: 5%;
+    position: absolute;
+    width: 30%;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 1200px; -----------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+  .components-title {
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 60pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  #form{
+    display: visible;
+  }
+
+   #im-a{
+    width: 125;
+    height: 125;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 990px) and (max-width: 1200px) {
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 3%;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 50pt;
+    color: #FFF;
+    z-index: 20;
+    top: 20%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    padding-left: 10;
+    /* margin-right: -30%; */
+    height: 100%;
+    min-height: 700px;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: 1170px; */
+  }
+
+
+  #my-name {
+    font-size: 60pt;
+    line-height: 1.2;
+    color: #3d806b;
+    margin-left: -10%;
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -20px;
+  }
+
+
+  #svg-container {
+    position: relative;
+    margin-top: -7%;
+    width: 990px;
+    height: 574px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #back-no-arrows {
+    display:none;
+  }
+
+  
+
+  .text-a {
+    font-size: 20pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: 83%;
+    left: 16.5%;
+    position: absolute;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: 4%;
+    left: 30.5%;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: 0%;
+    left: 60%;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: 86%;
+    left: 45.5%;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: 70.5%;
+    left: 82%;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 50%;
+    background-position: 15% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    min-height: 700px;
+    transition: 1s ease-in-out;
+  }
+
+
+   #about-message {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 20pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: -2% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    min-height: 700px;
+  }
+
+
+  .resume-head {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 18pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 20pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin-top: -6%;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 20pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 20pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 14%;
+    position: absolute;
+    width: 800px;
+    z-index: 0;
+    /* display: none; */
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 5%;margin-bottom: 5%;width: 125;height: 125;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    min-height: 700px;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 40%;
+    min-height: 40%;
+    position: relative;
+  }
+
+    .portfolio-image-1{
+    margin-top: 2%;
+    margin-left: 5%;
+    position: absolute;
+    width: 30%;
+  }
+  
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+  }
+
+  .components-title {
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 60pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  #form{
+    display: visible;
+  }
+   #im-a{
+    width: 125;
+    height: 125;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px) and (max-width: 990px) {
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 3%;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 40pt;
+    color: #FFF;
+    z-index: 20;
+    top: 20%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    padding-left: 10;
+    /* margin-right: -30%; */
+    min-height: 700px;
+    height: 100%;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: 1170px; */
+  }
+
+
+  #my-name {
+    font-size: 60pt;
+    line-height: 1.2;
+    color: #3d806b;
+    margin-left: -10%;
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -20px;
+  }
+
+
+  #svg-container {
+    display: none;
+  }
+
+
+  #back-no-arrows {
+    display:visible;
+    position: relative;
+    margin-top: -7%;
+    width: 640px;
+    height: 574px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  .text-a {
+    font-size: 20pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: 70%;
+    left: 16%;
+    position: absolute;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: 0%;
+    left: 30%;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: 00%;
+    left: 60%;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: 71%;
+    left: 46%;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: 70%;
+    left: 78%;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 50%;
+    background-position: 15% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    min-height: 700px;
+  }
+
+
+   #about-message {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 20pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: -2% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    min-height: 700px;
+  }
+
+
+  .resume-head {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 14pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin-top: -6%;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    min-height: 700px;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 16pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 16pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 14%;
+    position: absolute;
+    width: 700px;
+    z-index: 0;
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 5%;margin-bottom: 5%;width: 125;height: 125;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    min-height: 700px;
+    transition: 1s ease-in-out;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    float: right;
+    padding: 5%;
+    height: 30%;
+    min-height: 30%;
+    position: relative;
+  }
+  
+    .portfolio-image-1{
+    margin-top: 2%;
+    margin-left: 2%;
+    position: absolute;
+    width: 45%;
+  }
+  
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 990px; ------------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    min-height: 700px;
+  }
+
+  .components-title {
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 40pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  #form{
+    display: none;
+  }
+
+   #im-a{
+    width: 100;
+    height: 100;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 550px) and (max-width: 700px) {
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 3%;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 40pt;
+    color: #FFF;
+    z-index: 20;
+    top: 20%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    /* padding-left: 10; */
+    /* margin-right: -40%; */
+    height: 100%;
+    /* width: inherit; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%!important;
+    min-height: 500px;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: inherit; */
+  }
+
+
+  #my-name {
+    font-size: 30pt;
+    line-height: 1.2;
+    color: #3d806b;
+    margin-left: -10%;
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -20px;
+  }
+
+
+  #svg-container {
+    display: none;
+  }
+
+
+  #back-no-arrows {
+    display:visible;
+    position: relative;
+    margin-top: -30;
+    width: 500px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  .text-a {
+    font-size: 20pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: -15;
+    left: 4%;
+    position: absolute;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: -15;
+    left: 25%;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: -15;
+    left: 63%;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: -15;
+    left: 46%;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: -15;
+    left: 82%;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 50%;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 550px;
+  }
+
+
+   #about-message {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 20pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* background-color: white; */
+    in-height: 450px;
+    /* margin-right: -40%; */
+    min-height: 550px;
+  }
+
+
+  .resume-head {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 14pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin-top: -6%;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 500px;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 16pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 16pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: -5%;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 65%;
+    padding-left: 5%;
+    padding-right: 14%;
+    position: absolute;
+    width: 1200px;
+    z-index: 0;
+    margin-left: -10%;
+    display: none;
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 5%;margin-bottom: 5%;width: 125;height: 125;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 500px;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    float: right;
+    padding: 5%;
+    height: 30%;
+    min-height: 30%;
+    position: relative;
+  }
+  
+    .portfolio-image-1{
+    margin-top: 2%;
+    margin-left: 5%;
+    position: relative;
+    width: 40%;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 700px; ------------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+  }
+
+  .components-title {
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 40pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  #form{
+    display: none;
+  }
+
+  #im-a{
+    width: 75;
+    height: 75;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 550px) {
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 3%;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 40pt;
+    color: #FFF;
+    z-index: 20;
+    top: 20%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    /* padding-left: 10; */
+    /* margin-right: -40%; */
+    height: 100%;
+    /* width: inherit; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%!important;
+    min-height: 600px;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: inherit; */
+  }
+
+
+  #my-name {
+    font-size: 40pt;
+    line-height: 1.2;
+    color: #3d806b;
+    /* margin-left: -10%; */
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -20px;
+  }
+
+
+  #svg-container {
+    display: none;
+  }
+
+
+  #back-no-arrows {
+    display:visible;
+    position: relative;
+    margin-top: -30;
+    width: 300px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  .text-a {
+    font-size: 30pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: 180px;
+    left: 10%;
+    /* text-align: center; */
+    position: absolute;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: 330;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: 230px;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: 280;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: 380;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 100%;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 550px;
+  }
+
+
+   #about-message {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 20pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* background-color: white; */
+    /* margin-right: -40%; */
+    min-height: 650px;
+  }
+
+
+  .resume-head {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 14pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin-top: -6%;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 550px;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 16pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 16pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: -5%;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 65%;
+    padding-left: 5%;
+    padding-right: 14%;
+    position: absolute;
+    width: 1200px;
+    z-index: 0;
+    margin-left: -10%;
+    display: none;
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 5%;margin-bottom: 5%;width: 125;height: 125;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 500px;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    float: right;
+    padding: 5%;
+    height: 30%;
+    min-height: 30%;
+    position: relative;
+  }
+  
+    .portfolio-image-1 {
+    margin-top: 2%;
+    margin-left: 0%;
+    position: relative;
+    width: 50%;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 350px; ------------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+  }
+
+  .components-title {
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-right: 20%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 35pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  #form{
+    display: none;
+  }
+
+  #im-a{
+    width: 75;
+    height: 75;
+    margin-top: 30;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 350px) {
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------Appears In Multiple Pages --------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  .right-text-fs {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    float: right;
+    padding: 5%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 10;
+    padding-top: 3%;
+  }
+
+
+  .page-2-4-underline {
+    margin-top: -20px;
+    border-top: 5px solid #eeeeee;
+  }
+
+
+  .page-title {
+    font-size: 40pt;
+    color: #FFF;
+    z-index: 20;
+    top: 20%;
+    opacity: 1;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------First Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+  #first-page {
+    background-color: #15161c;
+    padding-bottom: 2%;
+    /* padding-left: 10; */
+    /* margin-right: -40%; */
+    height: 100%;
+    /* width: inherit; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%!important;
+    min-height: 550px;
+  }
+
+
+  #body-of-first-page {
+    height: 100%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: inherit; */
+  }
+
+
+  #my-name {
+    font-size: 35pt;
+    line-height: 1.2;
+    color: #3d806b;
+    /* margin-left: -10%; */
+    text-align: center;
+  }
+
+
+  #my-name-underline {
+    border-top: 5px solid #3D806B;
+    margin-top: -12px;
+  }
+
+
+  #svg-container {
+    display: none;
+  }
+
+
+  #back-no-arrows {
+    display:visible;
+    position: relative;
+    margin-top: -30;
+    width: 250;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  .text-a {
+    font-size: 30pt;
+    z-index: 10;
+  }
+
+
+  #about-me {
+    color: #4da5b1;
+    top: 150px;
+    left: 10%;
+    /* text-align: center; */
+    position: absolute;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #about-me:hover {
+    color: #4da5b1;
+  }
+
+
+  #portfolio {
+    color: #708892;
+    position:absolute;
+    top: 300;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #portfolio:hover {
+    color: #708892;
+  }
+
+   
+  #resume {
+    color: #a0c9cf;
+    position:absolute;
+    top: 200px;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #resume:hover {
+    color: #a0c9cf;
+  }
+
+
+  #photography {
+    color: #144F68;
+    position:absolute;
+    top: 250;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #photography:hover {
+    color: #144F68;
+  }
+   
+
+  #contact {
+    color: #aacad7;
+    position:absolute;
+    top: 350;
+    left: 10%;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+  }
+
+
+  #contact:hover {
+    color: #aacad7;
+  }
+  
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------Second Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+
+  #second-page {
+    height: 100%;
+    background: url(../img/photos/IMG_7136.png) #4DA5B1;
+    background-size: 60%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 650px;
+  }
+
+
+   #about-message {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-message-click {
+    font-size: 20pt;
+    text-align: center;
+    color: #c5dfe9;
+  }
+
+
+  #click-link {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+  #click-link:hover {
+    text-decoration: underline;
+    color: #102326;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------Third Page -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  #third-page{
+    height: 100%;
+    background: url(../img/photos/shape4.png) #a0c9cf;
+    background-size: 55%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* background-color: white; */
+    /* margin-right: -40%; */
+    min-height: 650px;
+  }
+
+
+  .resume-head {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+
+
+  .resume-sub-head {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .resume-sub-sub-head {
+    font-size: 14pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+  }
+
+
+  #up-to-date {
+    font-size: 16pt;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    background-color: 4d767d;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin-top: -6%;
+}
+
+  #up-to-date-link {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+  #up-to-date-link:hover {
+    color: #152E33;
+    text-decoration: underline;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------Fourth Page ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+   
+  #fourth-page {
+    background-color: #103e52;
+    height: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 650px;
+  }
+
+
+  #photography-quote {
+    color: #d1eaf5;
+    font-size: 16pt;
+    text-align: center;
+  }
+
+
+  #quote-author {
+    color: #D1EAF5;
+    font-size: 16pt;
+    text-align: center;
+  }   
+
+
+  #photography-message {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: -5%;
+    color: white;
+  }
+
+
+/*/////////////////////////////////////////////////*/
+  .components-1 {
+    padding-top: 65%;
+    padding-left: 5%;
+    padding-right: 14%;
+    position: absolute;
+    width: 1200px;
+    z-index: 0;
+    margin-left: -10%;
+    display: none;
+  }   
+
+
+  #thumbs-1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs-1 a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch-1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+
+  .mt-mb {margin-top: 5%;margin-bottom: 5%;width: 125;height: 125;}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------Fifth Page  ----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .fifth-page {
+    background-color: #708892;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+    min-height: 500px;
+  }
+
+  .right-text-hs {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    float: right;
+    padding: 5%;
+    height: 30%;
+    min-height: 30%;
+    position: relative;
+  }
+
+    .portfolio-image-1 {
+    margin-top: 2%;
+    width: 50%;
+        margin-left: 0%;
+    position: relative;
+  }
+  
+/*----------------------------------------------------------------------------*/
+/*----------------------- set body-min-width : 0; ------------------------*/
+/*------------------------ Six Page  -----------------------------------------*/
+/*----------------------------------------------------------------------------*/ 
+
+  .six-page{
+    background-color: #15161c;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    transition: 1s ease-in-out;
+    /* margin-right: -40%; */
+  }
+
+  .components-title {
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-right: 20%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .contact-hr {
+    border-top: 10px solid white;
+    margin-top: -10px;
+  }
+
+  .contact-me-title {
+    text-align: center;
+    font-size: 35pt;
+    color: #FFF;
+    z-index: 20;
+    top: 30%;
+    opacity: 1;
+  }
+    
+  .components {
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }   
+
+
+  #thumbs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  #form{
+    display: none;
+  }
+
+  #im-a{
+    width: 75;
+    height: 75;
+    margin-top: 30;
+  }
+}
+
+
+
+
+
